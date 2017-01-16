@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ReferenceArchitecture1
+  host: ReferenceArchitecture1
+  disk_quota: 1024M
+  services:
+  - ReferenceArchitecture1-cloudantNoSQLDB
+  - ReferenceArchitecture1-iotf-service
